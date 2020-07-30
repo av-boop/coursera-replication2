@@ -1,0 +1,280 @@
+.menu {
+  min-height: 69.8px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  padding: 16.25px 24px;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo-heading {
+  color: #207bd4;
+  width: 127px;
+  height: 32px;
+  padding: 16.25px, 24px;
+  font-weight: 700;
+  position: fixed;
+  font-size: 14pxs;
+  vertical-align: middle;
+}
+
+.butn {
+  position: absolute;
+  left: 12%;
+  width: 92px;
+  height: 36px;
+  background-color: #2073d4;
+  color: #fff;
+  padding: 0px 0px 0px 12px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: OpenSans, Arial, Sans-Serif;
+  margin-right: ;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  margin-left: 3px;
+}
+.butn:hover {
+  background-color: #fff;
+  color: #207bd4;
+}
+.arrow {
+  width: 9px;
+  height: 9.6px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.input-box {
+  width: 450px;
+  height: 40px;
+  background-color: #ffffff;
+  padding: 0px 10px;
+  position: relative;
+  left: 20%;
+  border: 1px solid #e1e1e1;
+  padding: 0px 10px;
+  font-family: Halvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.search {
+  width: 40px;
+  height: 40px;
+  background-color: #2a73cc;
+  position: absolute;
+  left: 770px;
+  top: 17.5px;
+  padding: 10px;
+}
+
+.search-logo {
+  color: #fff;
+}
+
+.pic-section {
+  background-color: #271066;
+  height: 400.8px;
+  width: 100%;
+  background-image: url("robo-girl.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.links {
+  position: absolute;
+  left: 70%;
+  top: 30%;
+}
+
+.enterprise {
+  color: #1f1f1f;
+  padding: 3px 12px;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: OpenSans, Arial, sans-serif;
+}
+
+:hover.enterprise {
+  color: #207bd4;
+  text-decoration: none;
+}
+
+.log {
+  color: #207bd4;
+  text-decoration: none;
+  padding: 3px 12px;
+  font-size: 14px;
+  font-family: OpenSans, Arial, sans-serif;
+}
+
+:hover.log {
+  text-decoration: none;
+}
+
+.but {
+  background-color: #2073d4;
+  padding: 15px;
+  width: 117.09px;
+  height: 36px;
+  font-size: 14px;
+  padding-bottom: 15px;
+  font-family: OpenSans, Arial, sans-serif;
+  line-height: 4px;
+  border-radius: 2px;
+  border: 1px solid #2073d4;
+  font-weight: 700;
+}
+
+.girl-section {
+  min-height: 400.8px;
+  background-image: linear-gradient(
+      90deg,
+      #271066,
+      rgba(39, 16, 102, 0) 65%,
+      rgba(39, 16, 102, 0) 70%,
+      #271066
+    ),
+    url("rr.jpg");
+
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: 2;
+  
+}
+
+.text-container {
+  max-width: 560px;
+  color: #fff;
+
+  position: relative;
+
+  margin-left: 120px;
+  padding: 90px 20px;
+  z-index: 3;
+  width: 100%;
+  vertical-align: middle;
+}
+
+h1 {
+  margin-bottom: 13px;
+  font-size: 40px;
+  font-family: OpenSans, Arial, sans-serif;
+  line-height: 100px;
+  font-weight: 700;
+  max-width: 100%;
+}
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 33px;
+  max-width: 100%;
+  color: #ffffff;
+  font-family: OpenSans, Arial, sans-serif;
+}
+.but1 {
+  background-color: #ffffff;
+  color: #2a73cc;
+  padding: 23px 48px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 0 solid transparent;
+  font-size: 20px;
+  outline: none;
+  font-family: OpenSans, Arial, sans-serif;
+  transition: background.2s;
+  text-align: center;
+}
+
+.logo {
+  height: 140px;
+  background-color: #ffffff;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.ad-text {
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  font-family: OpenSans, Arial, sans-serif;
+}
+
+span a {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: OpenSans, Arial, sans-serif;
+}
+.logo-image {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.feature {
+  height: 312.2px;
+  background-color: #ffffff;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 44px;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.goal-text {
+  font-family: OpenSans, Arial, sans-serif;
+  font-weight: 700;
+  color: #1f1f1f;
+
+  font-size: 32px;
+}
+
+.logo-div {
+  padding-top: 50px;
+}
+
+.skill {
+  width: 55px;
+  height: 43.84;
+}
+
+.career {
+  width: 55px;
+  height: 42.6px;
+}
+
+.cert {
+  width: 58px;
+  height: 40.33px;
+}
+.organ {
+  width: 55px;
+  height: 31.84;
+}
+.skill-text {
+  color: #666666;
+  font-size: 24px;
+  width: 154px;
+  font-family: OpenSans, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+ .small-text{
+
+  color: #1f1f1f;
+    display: block;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 10px;
+    
+}
+}
